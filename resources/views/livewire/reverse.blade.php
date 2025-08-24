@@ -4,7 +4,7 @@ use function Livewire\Volt\{state, mount};
 
 state(['word']);
 
-mount(function() {
+mount(function () {
     $this->word_reverse = strrev($this->word);
 });
 
